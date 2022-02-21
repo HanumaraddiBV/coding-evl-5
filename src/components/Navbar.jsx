@@ -36,7 +36,7 @@ export const Navbar = () => {
 
 
       </div>
-      <div id="search-result"  id="detailed-result">
+      <div id="search-result"  className="detailed-result">
         {searchData.map((e) => (
           <div className="result " key={e.id}>
             <p>{e.url}</p>
