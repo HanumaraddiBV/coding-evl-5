@@ -1,0 +1,68 @@
+#navbar{
+    display: flex;
+    /* background-color: teal; */
+    flex-direction: row;
+  }
+
+  #navbar input{
+      width: 900px;
+      height: 30px;
+      margin-top: 35px;
+  }
+
+  #navbar button{
+      width: 90px;
+      height: 37px;
+      padding: 7px;
+      margin-top: 35px;
+  }
+
+
+  #navbar img{
+      width: 200px;
+      height: 100px;
+  }
+
+  #textId{
+      display: flex;
+      flex-direction: row;
+      padding-right: 30px;
+      flex-wrap: nowrap;
+      margin-top:-10px
+      
+  }
+  #search-result{
+      margin-left: 20px;
+      width:60%;
+  }
+  .author {
+      margin-top: 4px;
+      margin-left:10px;
+  }
+  .desc{
+      margin-top:-10px;
+  }
+  #date{
+    margin-top:-10px;
+  }
+  #quality{
+    margin-top:-40px;
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 20px; */
+   
+  }
+  #sort{
+      display: flex;
+      flex-direction: row;
+      margin-left: 200px;
+  }
+  /* #h5{
+margin-top: -10px;
+  } */
+  .explicit{
+      margin-right: 20px;
+  }
+  .result{
+      margin-bottom: 50px;
+  }
